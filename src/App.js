@@ -213,7 +213,7 @@ class App extends Component {
                       <Plan />
                       <Footer onRouteChange={this.onRouteChange}/>
                     </Route>
-                    <Route path="/">
+                    <Route exact path="/">
                       <Navigation isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
                       <First onRouteChange={this.onRouteChange}/>
                       <Footer onRouteChange={this.onRouteChange}/>

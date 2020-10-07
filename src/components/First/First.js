@@ -3,7 +3,6 @@ import './First.css';
 import spfirst from '../../images/sp-first.png';
 import first from '../../images/first-view.png';
 import studio from '../../images/studio-title.png';
-import smart from '../../images/smart.png';
 import shinjuku from '../../images/shinjuku.png';
 import merit1 from '../../images/merit1.png';
 import merit2 from '../../images/merit2.png';
@@ -31,12 +30,7 @@ import Flow from '../Parts/Flow';
 import Question from '../Parts/Question';
 import Interview from '../Parts/Interview';
 
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 const First = ({}) => {
