@@ -149,9 +149,6 @@ class App extends Component {
                     <Route exact path="/signin">
                       <Signin loadUser={this.loadUser} onRouteChange={this.onRouteChange}/>
                     </Route>
-                    {/* <Route path="/signin">
-                      <Signin loadUser={this.loadUser} onRouteChange={this.onRouteChange}/>
-                    </Route> */}
                     <Route path="/specialcommercialcode">
                       <Navigation isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
                       <SpecialCommercialCode />
@@ -165,10 +162,6 @@ class App extends Component {
                     <Route path="/counseling">
                       <Navigation isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
                       <Counseling />
-                      <Footer onRouteChange={this.onRouteChange}/>
-                    </Route>
-                    <Route path="/user">
-                      <Homework isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
                       <Footer onRouteChange={this.onRouteChange}/>
                     </Route>
                     <Route path="/voices">
